@@ -1,0 +1,172 @@
+body{
+	background: #E8E8E8;
+}
+
+.justAdded{
+	background: rgba(123, 216, 134, 0.5);
+}
+
+.user-post{
+	margin-bottom: 25px;
+	background: #FFF;
+	padding: 10px 15px;
+	border-radius: 3px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.user-info p{
+	font-weight: bold;
+	color: gray;
+}
+
+.user a{
+	text-decoration: none;
+}
+
+.user-comments{
+	margin-top: 20px;
+}
+
+/*.commentArea{
+	visibility: hidden;
+}*/
+
+/*----------------------- Modal -----------------------*/
+.modal-backdrop{
+	opacity: 0.1 !important;
+}
+
+.modal{
+	text-align: center;
+	padding: 0!important;
+}
+
+.modal:before{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+
+.modal-dialog{
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.modal-content{
+	border-radius: 5px;
+}
+
+
+.cl-inner{
+	background: #FFF;
+	margin-right: 20px;
+	padding: 20px 15px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.ac-inner{
+	margin-left: 20px;
+	background: #FFF;
+	padding: 20px 15px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.courses{
+	background: rgba(232, 232, 232, 0.1);
+	padding: 15px 20px;
+	box-shadow: 0 0 4px #CCC;
+}
+
+.courses a{
+	font-size: 17px;
+}
+
+.classRightSidebar{
+	background: #FFF;
+	padding: 10px 15px 10px 15px !important;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.accessCode{
+	background: #D4E073;
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+
+.classroom-user-lists{
+	background: #FFF;
+	min-height: 100vh;
+}
+
+.student-lists p{
+	font-weight: bold !important;
+}
+
+.classRoom-components{
+	background: #FFF;
+	padding: 15px 20px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+	margin-bottom: 25px;
+}
+
+span.mark{
+	color: gray;
+	font-weight: bold;
+}
+
+.tab-content{
+	min-height: 77vh;
+	-webkit-min-height: 77vh;
+}
+
+#structure label{
+	color: gray;
+}
+
+#structure label:not(.atdc){
+	letter-spacing: 1px;
+}
+
+
+/*-------------------- input field, select, texarea ---------------*/
+input, textarea{
+	transition: 0s !important;
+}
+
+span.select2-selection--multiple{
+    border-color: rgba(0, 0, 0, 0.3) !important;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1) !important;   
+}
+
+span.select2-selection--multiple[aria-expanded: true]{
+    border-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 !important;   
+}
+
+input:focus, textarea:focus{
+	border-color: rgba(0, 0, 0, 0.5) !important;
+	box-shadow: none !important;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
+
+input[type='number']{
+	-moz-appearance: textfield !important;
+}
+
+
+.btn-group-justified .btn-group{
+	padding: 0 3px !important;
+}
+
+.nav-pills.nav-justified li:not(:first-child),
+.nav-pills.nav-justified li:not(:last-child){
+	padding: 0 3px !important;
+}
